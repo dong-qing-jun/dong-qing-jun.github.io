@@ -3,9 +3,19 @@
         <title>我的全新 Hugo 网站</title>
         <link>http://example.org/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Jun 2025 14:54:50 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Jun 2025 15:13:44 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Github_ssh</title>
+    <link>http://example.org/posts/github_ssh/</link>
+    <pubDate>Mon, 30 Jun 2025 15:13:44 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>http://example.org/posts/github_ssh/</guid>
+    <description><![CDATA[<h1 id="通过ssh访问github">通过ssh访问github</h1>
+<p>环境：本电脑系统是win10ltsc，shell采用powershell7。<br>
+其它系统步骤相同，但执行的命令各不相同（其它系统也可安装powershell7）</p>]]></description>
+</item>
+<item>
     <title>Second_post</title>
     <link>http://example.org/posts/second_post/</link>
     <pubDate>Mon, 30 Jun 2025 14:54:50 &#43;0800</pubDate>
