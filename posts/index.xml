@@ -1,26 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on </title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on </description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 01 Jul 2025 13:37:29 +0800</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>科学上网</title>
-      <link>/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</link>
-      <pubDate>Tue, 01 Jul 2025 13:37:29 +0800</pubDate>
-      <guid>/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</guid>
-      <description>&lt;p&gt;推荐一个机场，&lt;a href=&#34;https://www.acnode.net/&#34;&gt;Ari Connect&lt;/a&gt;.从2016年到2025年，已经好久了，早知道冲个永久了，哎。强力推荐5月套餐，一年60块。这是&lt;a href=&#34;https://ari.connect2.cloud/auth/login&#34;&gt;直接登录&lt;/a&gt;的链接，可能会失效，这个&lt;a href=&#34;https://www.acnode.net/&#34;&gt;链接&lt;/a&gt;不会失效，但需要跳来跳去的&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Github_ssh</title>
-      <link>/github_ssh/</link>
-      <pubDate>Mon, 30 Jun 2025 15:13:44 +0800</pubDate>
-      <guid>/github_ssh/</guid>
-      <description>&lt;h1 id=&#34;通过ssh访问github&#34;&gt;通过ssh访问github&lt;/h1&gt;&#xA;&lt;p&gt;环境：本电脑系统是win10ltsc，shell采用powershell7。&lt;br&gt;&#xA;其它系统步骤相同，但执行的命令各不相同（其它系统也可安装powershell7）&lt;/p&gt;&#xA;&lt;h2 id=&#34;生成ssh密钥&#34;&gt;生成ssh密钥&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;ssh-keygen -t ed25519 -C &amp;quot;your_email@example.com&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;替换 &lt;a href=&#34;mailto:your_email@example.com&#34;&gt;your_email@example.com&lt;/a&gt; 为您的 GitHub 邮箱。&lt;/li&gt;&#xA;&lt;li&gt;按提示完成生成（直接回车使用默认路径）。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;上面的命令输入完成后，弹出的选项全部默认，即直接回车，会生成两个文件 &lt;code&gt;id_ed25519&lt;/code&gt;和&lt;code&gt;id_ed25519.pub&lt;/code&gt;。其中&lt;code&gt;id_ed25519.pub&lt;/code&gt;是公钥，谁都可以看，这个要放到github中。&lt;/p&gt;&#xA;&lt;h2 id=&#34;查看ssh公钥&#34;&gt;查看ssh公钥&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;cat ~/.ssh/id_ed25519.pub&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;将会输出以&lt;code&gt;ssh-ed25519&lt;/code&gt;开头的一串字符，包含了其它信息，但一整串都可以当作你的公钥，因为像github这样的平台会自动识别其中的真正公钥部分。&lt;/p&gt;&#xA;&lt;h2 id=&#34;github添加公钥&#34;&gt;github添加公钥&lt;/h2&gt;&#xA;&lt;p&gt;1、 登录 GitHub → ​​Settings​​ → ​​SSH and GPG keys​​ → ​​New SSH key​​。 &lt;br&gt;&#xA;2、 粘贴公钥内容，保存。&lt;/p&gt;&#xA;&lt;h2 id=&#34;测试-ssh-连接&#34;&gt;​​测试 SSH 连接​&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;ssh -T git@github.com&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;看到 You&amp;rsquo;ve successfully authenticated 表示成功。结束。&lt;/li&gt;&#xA;&lt;li&gt;若提示 Permission denied，继续下一步。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;密钥管理可选&#34;&gt;*密钥管理​​（可选）&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;New-Item -Path $env:USERPROFILE\.ssh\config -ItemType File -Force&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;在&lt;code&gt;.ssh&lt;/code&gt;目录下创建一个&lt;code&gt;config&lt;/code&gt;文件&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;notepad $env:USERPROFILE\.ssh\config&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;使用&lt;code&gt;notepad&lt;/code&gt;编辑这个&lt;code&gt;config&lt;/code&gt;文件&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Host github.com&#xA;  HostName github.com&#xA;  IdentityFile ~/.ssh/github_key&#xA;  User git &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;然后再次测试&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - 我的全新 Hugo 网站</title>
+        <link>http://example.org/posts/</link>
+        <description>所有文章 | 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 02 Jul 2025 11:48:57 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>注册说明</title>
+    <link>http://example.org/posts/%E6%B3%A8%E5%86%8C%E8%AF%B4%E6%98%8E/</link>
+    <pubDate>Wed, 02 Jul 2025 11:48:57 &#43;0800</pubDate><author>
+        <name>作者</name>
+    </author><guid>http://example.org/posts/%E6%B3%A8%E5%86%8C%E8%AF%B4%E6%98%8E/</guid>
+    <description><![CDATA[<h1 id="原因" class="headerLink">
+    <a href="#%e5%8e%9f%e5%9b%a0" class="header-mark"></a>原因</h1><p>方便管理评论，本博客不会轻易删除任何人的任何评论。</p>
+<h1 id="方法" class="headerLink">
+    <a href="#%e6%96%b9%e6%b3%95" class="header-mark"></a>方法</h1><p>随意打开一篇文章，点击登录-&gt;注册。输入相关的信息就可以了。</p>
+<p>不会对输入的邮箱做校验，但仍希望输入正确的邮箱。</p>
+<p>同时建议绑定QQ或其它登录方式，防止自己忘记用户名。</p>
+<h1 id="说明" class="headerLink">
+    <a href="#%e8%af%b4%e6%98%8e" class="header-mark"></a>说明</h1><p>本评论系统使用waline，全部采用免费的方案搭建，必须注册后评论实属无奈。但会减少校验，让用户体验更好。</p>]]></description>
+</item><item>
+    <title>科学上网</title>
+    <link>http://example.org/posts/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</link>
+    <pubDate>Tue, 01 Jul 2025 13:37:29 &#43;0800</pubDate><author>
+        <name>作者</name>
+    </author><guid>http://example.org/posts/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</guid>
+    <description><![CDATA[<p>推荐一个机场，<a href="https://www.acnode.net/" target="_blank" rel="noopener noreferrer">Ari Connect</a>.从2016年到2025年，已经好久了，早知道冲个永久了，哎。强力推荐5月套餐，一年60块。这是<a href="https://ari.connect2.cloud/auth/login" target="_blank" rel="noopener noreferrer">直接登录</a>的链接，可能会失效，这个<a href="https://www.acnode.net/" target="_blank" rel="noopener noreferrer">链接</a>不会失效，但需要跳来跳去的</p>]]></description>
+</item><item>
+    <title>Github_ssh</title>
+    <link>http://example.org/posts/github_ssh/</link>
+    <pubDate>Mon, 30 Jun 2025 15:13:44 &#43;0800</pubDate><author>
+        <name>作者</name>
+    </author><guid>http://example.org/posts/github_ssh/</guid>
+    <description><![CDATA[<h1 id="通过ssh访问github" class="headerLink">
+    <a href="#%e9%80%9a%e8%bf%87ssh%e8%ae%bf%e9%97%aegithub" class="header-mark"></a>通过ssh访问github</h1><p>环境：本电脑系统是win10ltsc，shell采用powershell7。<br>
+其它系统步骤相同，但执行的命令各不相同（其它系统也可安装powershell7）</p>
+<h2 id="生成ssh密钥" class="headerLink">
+    <a href="#%e7%94%9f%e6%88%90ssh%e5%af%86%e9%92%a5" class="header-mark"></a>生成ssh密钥</h2><pre><code>ssh-keygen -t ed25519 -C &quot;your_email@example.com&quot;
+</code></pre>
+<ul>
+<li>替换 <a href="mailto:your_email@example.com" rel="">your_email@example.com</a> 为您的 GitHub 邮箱。</li>
+<li>按提示完成生成（直接回车使用默认路径）。</li>
+</ul>
+<p>上面的命令输入完成后，弹出的选项全部默认，即直接回车，会生成两个文件 <code>id_ed25519</code>和<code>id_ed25519.pub</code>。其中<code>id_ed25519.pub</code>是公钥，谁都可以看，这个要放到github中。</p>]]></description>
+</item></channel>
 </rss>
