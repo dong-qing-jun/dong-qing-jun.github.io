@@ -4,6 +4,16 @@
         <link>http://example.org/posts/</link>
         <description>所有文章 | 我的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Jul 2025 19:50:38 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>公益收集</title>
+    <link>http://example.org/posts/v2ray%E6%94%B6%E9%9B%86/</link>
+    <pubDate>Thu, 03 Jul 2025 19:50:38 &#43;0800</pubDate><author>
+        <name>作者</name>
+    </author><guid>http://example.org/posts/v2ray%E6%94%B6%E9%9B%86/</guid>
+    <description><![CDATA[<h1 id="v2ray客户端" class="headerLink">
+    <a href="#v2ray%e5%ae%a2%e6%88%b7%e7%ab%af" class="header-mark"></a>v2ray客户端</h1><p><code>2dust</code>大佬发布的<a href="https://v2rayn.2dust.link/" target="_blank" rel="noopener noreferrer">下载网站</a></p>
+<p><code>2dust</code>大佬发布的<a href="https://github.com/2dust/v2rayN/releases" target="_blank" rel="noopener noreferrer">github</a></p>
+<p>个人从<code>2dust</code>大佬处下载的<a href="https://wwxh.lanzoum.com/b00efwiw4h" target="_blank" rel="noopener noreferrer">7.12.7</a>,请先复制密码<code>a762</code></p>]]></description>
+</item><item>
     <title>注册说明</title>
     <link>http://example.org/posts/%E6%B3%A8%E5%86%8C%E8%AF%B4%E6%98%8E/</link>
     <pubDate>Wed, 02 Jul 2025 11:48:57 &#43;0800</pubDate><author>
