@@ -1,17 +1,27 @@
-# 公益免费v2ray节点订阅  每日更新  更新时间 2025-09-16 04:28:33  
+# 公益免费v2ray节点订阅  每日更新  更新时间 2025-09-16 08:50:01  
 所有v2ray免费节点都爬取自网络，请勿用于非法用途 。
 
-|  客户端  | Android  | Windows  | iOS  |
-|  ----  | ----   | ----  |----  |
-| v2ray  | v2rayNG | v2rayN | OneClick |
+| 客户端 | Android | Windows | iOS      |
+| ------ | ------- | ------- | -------- |
+| v2ray  | v2rayNG | v2rayN  | OneClick |
 ## v2rayN使用教程：[点击查看](https://v2rayn100.com/) 
 
 ## 节点导入方法  
 CTRL+A网页全选，CTRL+C复制，右键点击任务栏v2rayN客户端图标，左键点击从剪贴板批量导入URL，即可一键导入所有v2ray节点  
-## v2ray免费节点订阅  
-- `https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v2`  
 
-### 高速机场推荐1【[飞鸟加速](https://www.112112789.xyz/?path=register&code=DmrHrGck)】
+## 公益机场推荐【 [ORYMI](https://orymi.cc/#/register?code=rDsEp8Hf) 】
+
+免费套餐详情：
+
+- 套餐流量：20 GB
+- 优质隧道专线
+- 全平台客户端支持
+- 订单日重置流量
+- 解锁流媒体及ChatGPT
+
+网站注册地址：【 [ORYMI（点击注册）](https://orymi.cc/#/register?code=rDsEp8Hf)】
+
+## 高速机场推荐1【[飞鸟加速](https://www.112112789.xyz/?path=register&code=DmrHrGck)】
 
 ? 飞鸟加速 · 高速·稳定·无限可能
 
@@ -25,6 +35,9 @@ CTRL+A网页全选，CTRL+C复制，右键点击任务栏v2rayN客户端图标�
 网站注册地址：【[飞鸟加速（点击注册](https://www.112112789.xyz/?path=register&code=DmrHrGck)）】
 
 注：跳转链接可能会 **被墙** ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接
+
+## v2ray免费节点订阅  
+- `https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v2`  
 
 ## v2ray免费节点分享
 
@@ -104,12 +117,12 @@ vless://b0797d01-63a2-4a19-8ca1-674a09eca4f4@166.88.142.46:10101?allowInsecure=0
 vless://9b3d65ab-576c-4750-9cb3-bb41c12c085e@172.245.251.10:8443?allowInsecure=0&sni=www.ieee.org&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#US_speednode_0026
 vless://2a0ce0d5-cd10-4f7a-9c86-cf20fb2a9ce3@160.25.74.112:10109?allowInsecure=0&sni=content.cdp.bethesda.net&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#VN_speednode_0027
 vless://ef9ffa72-b723-4382-a7d6-88e2cd2aa773@160.25.74.112:10109?allowInsecure=0&sni=content.cdp.bethesda.net&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#VN_speednode_0028
-ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local;obfs=http;obfs-host=202509121565513-hDcp24etDx.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774?plugin=obfs-local;obfs=http;obfs-host=202509121565513-hDcp24etDx.download.microsoft.com#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
-ss://YWVzLTI1Ni1nY206ODgwOGU5ZjExNDU0@137.220.142.139:443?plugin=v2ray-plugin;mode=websocket;path=/nvcnjrmkggoy;host=jp5v1.lingjfjkm002.com;tls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
 ss://YWVzLTI1Ni1nY206MmI1ZmFkMzg3NGU1@156.251.179.135:443?plugin=v2ray-plugin;mode=websocket;mux=8;path=/aqwshiog;host=hk6v1.dsjsapp.com;tls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
+ss://YWVzLTI1Ni1nY206ODgwOGU5ZjExNDU0@137.220.142.139:443?plugin=v2ray-plugin;mode=websocket;path=/nvcnjrmkggoy;host=jp5v1.lingjfjkm002.com;tls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
+ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local;obfs=http;obfs-host=202509121565513-hDcp24etDx.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
 
 
 ```
 
-更多推荐：[免费节点](https://clashgithub.com)  [clash节点](https://github.com/free-nodes/clashfree)
+更多推荐：[免费节点](https://clashgithub.com)  [clash节点](https://github.com/free-nodes/clashfree) [clash下载](https://github.com/clashbk/clash)
