@@ -1,4 +1,4 @@
-# v2ray公益免费节点订阅  每日更新  更新时间 2025-10-09 08:33:45  
+# v2ray公益免费节点订阅  每日更新  更新时间 2025-10-09 16:33:35  
 所有v2ray免费节点都爬取自网络，请勿用于非法用途 。
 
 | 客户端 | Android | Windows | iOS      |
@@ -47,7 +47,6 @@ CTRL+A网页全选，CTRL+C复制，右键点击任务栏v2rayN客户端图标�
 
 ```  
 
-hysteria2://siEk2SjZFG@adas-polo-ba-mahi.kotlet.org:2083?insecure=1&sni=ghasem.kotlet.org&obfs=salamander&obfs-password=ki(rtoko(s-maret-khamneii#Channel%20id%3A%20%40ShadowProxy66%F0%9F%87%AC%F0%9F%87%A7
 hysteria2://1a8588b6-9700-4ff6-80e6-64e18f2e5336@de1.jueduibupao.top:43836?insecure=1&sni=de1.jueduibupao.top#%40sunflowerplato%F0%9F%8C%BB
 hysteria2://2429bee3-e0c1-47dd-b420-75e6512b184b@40.233.82.111:30300?insecure=1&sni=www.bing.com#%40IRAN_V2RAY1
 hysteria2://2b67ONZROv%2BfRVMxB94BSw%3D%3D@5.231.70.79:443?insecure=1&sni=bing.com#%40Daily_Configs
